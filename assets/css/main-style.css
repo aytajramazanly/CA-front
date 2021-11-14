@@ -1,0 +1,441 @@
+
+
+  .divs {
+    height: 200px;
+  }
+
+  #educational-programs{
+    padding: 150px 0;
+  }
+  
+#educational-programs .row{
+width: 1120px;
+margin-left: 5%;
+}
+
+  #educational-programs .title {
+    width: 50%;
+    position: relative;
+  }
+  
+  #educational-programs .title h2 {
+    font-weight: 300;
+  }
+  
+  #educational-programs .title h2 span {
+    display: block;
+    font-weight: 700;
+  }
+
+  #educational-programs .title p {
+    width: 500px;
+    color: #323232;
+    margin-top: 20px;
+}
+#educational-programs .title .more-detail {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 180px;
+  }
+
+  #educational-programs .programs-item{
+    width: 280px;
+    height: 250px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+    position: relative;
+  }
+
+  #educational-programs .programs-item.design:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+    background-color: #bd1e72;
+    z-index: 1;
+  }
+  #educational-programs .marketing:hover{
+    background-color: #6f42c1;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+#educational-programs .architecture:hover{
+    background-color: #ed7900;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+#educational-programs .programming:hover{
+    background-color: #0056b3;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+#educational-programs .graphic:hover{
+    background-color: #ffc107;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+#educational-programs .system:hover{
+    background-color: #28a745;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+#educational-programs .uxui:hover{
+    background-color: #ffc107;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+}
+
+  #educational-programs .programs-item h4{
+      font-size: 18px;
+      color: #323232;
+      position: absolute;
+      top: 200px;
+      left: 20px;
+  }
+  #educational-programs .system h4{
+      top: 180px;
+  }
+
+  #educational-programs .programs-item .icon{
+    padding: 25px;
+  }
+  
+  #why-code {
+    padding: 150px 0;
+  }
+  
+  #why-code .title {
+    width: 50%;
+    position: relative;
+    margin-left: 3%;
+  }
+  
+  #why-code .title::after {
+    content: "";
+    width: 100px;
+    background-color: crimson;
+    background-image: linear-gradient(to right, rgb(77 207 77), #5858f5 ,purple, red, yellow);
+    padding: 1.5px;
+    position: absolute;
+    top: 53%;
+    left: 0;
+  }
+  
+  #why-code .title .description {
+    margin-top: 80px;
+  }
+  
+  #why-code .why-code-items {
+    margin-top: 50px;
+    padding: 20px;
+    transition: all 0.3s;
+    width: 473px;
+    height: 202px;
+  }
+  
+  #why-code .why-code-items .content {
+    margin: 7% 5%;
+    color: black;
+  }
+
+  #why-code .why-code-items .content p {
+    max-height: 95px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 5px;
+  }
+  
+  
+  #why-code .why-code-items:hover {
+    box-shadow: 0 8px 30px 0 rgb(0 0 0 / 7%);
+    background-color: #fff;
+  }
+
+  #banner {
+    height: 450px;
+    background-image: url("https://code.edu.az/media/settings/02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #banner .banner-description{
+      width: 1000px;
+      background-color: rgb(255, 255, 255);
+      height: 65px;
+      position: absolute;
+      margin: 11% 8%;
+  }
+  #banner .banner-description .banner-first{
+    color: #323232;
+      font-weight: 500;
+      line-height: 1.94;
+      text-align: center;
+      font-size: 32px;
+  }
+  #banner .banner-description .num{
+    font-weight: 900;
+  }
+
+  #banner .banner-description .banner-second{
+    color: #323232;
+    border: 4px solid black;
+    width: 71%;
+    background-color: rgb(255, 255, 255);
+    height: 108%;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.70;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    top: 90%;
+}
+
+#academic-partner{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+#academic-partner .partner{
+  margin-bottom: 80px;
+}
+
+#academic-partner .partner h2{
+  text-align: center;
+  font-weight: 800;
+}
+
+#academic-partner .partner p{
+  margin-top: 30px;
+  font-weight: 350;
+  text-align: center;
+  max-width: 540px;
+  margin-left: 302px;
+}
+#academic-partner .title{
+  position: relative;
+}
+
+#academic-partner .title.partner::after {
+  content: "";
+  width: 100px;
+  background-color: crimson;
+  background-image: linear-gradient(to right, rgb(77 207 77), #5858f5 ,purple, red, yellow);
+  padding: 2px;
+  position: absolute;
+  top: 120%;
+  left: 45%;
+}
+
+#academic-partner .academic-partner{
+  padding: 50px 0;
+}
+
+#academic-partner .academic-partner .partner-logo{
+  width: 200px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#academic-partner .academic-partner .partner-logo img{
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#academic-partner .academic-partner .partner-logo img:hover{
+  filter: grayscale(0);
+  transition: 00.5s;
+}
+#academic-partner .academic-partner .partner-logo.digital img{
+  width: 80%;
+  margin-left: 7%;
+}
+
+#academic-partner .title.future{
+  padding: 170px 0;
+  position: relative;
+}
+
+#academic-partner .title.future h2{
+text-align: center;
+}
+#academic-partner .title.future p{
+  margin: 20px auto;
+  text-align: center;
+  max-width: 540px;
+}
+
+#academic-partner .title.future .link-instagram{
+  text-align: center;
+  text-decoration: none;
+  color: #323232;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  display: table;
+  margin: 0 auto;
+}
+
+#academic-partner .title.future .link-instagram::after{
+  content: "";
+  height: 1px;
+  width: 225px;
+  background-color: #ffe700;
+  position: absolute;
+  top: 68%;
+  left: 39%;
+}
+
+#query{
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url("https://code.edu.az/media/settings/Sualiniz-var_c3Xp8Bz.jpg");
+}
+#query .container{
+  width: 1124px;
+}
+
+#query .input .form{
+  /* border: 1px solid #d3d3d3; */
+  border: none;
+  height: 60px;
+  width: 193px;
+  margin: 20px 10px;
+}
+
+#query .input .form:focus{
+  outline: none;
+  border: 1px solid #ffe700;
+}
+#query .input.select-phone-code .form{
+  /* border: 1px solid #d3d3d3; */
+  height: 60px;
+  width: 120px;
+  float: left;
+  margin: 20px 0px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(143, 143, 143);
+  font-weight: 300;
+}
+
+#query .input.surname .form{
+  margin-right: 10%;
+}
+
+#query .input.number .form{
+  width: 219px;
+  margin-left: -50px;
+}
+
+#query .title {
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+#query .title h2 span{
+  margin-left: -55px;
+}
+#query .title p{
+  margin-top: 35px
+}
+
+#query .select-program{
+  margin: 15px 0;
+}
+
+#query .select-program select{
+  width: 355px;
+  height: 60px;
+  margin: 16px;
+  border: none;
+}
+
+#query .select-program select:focus{
+  border: 1px solid #ffe700;
+}
+
+#query .input input:valid +label,
+#query .input input:focus + label{
+  font-size: 12px;
+  top: 14%;
+  left: 9%;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+}
+
+#query .input input:valid:not(:focus) + label{
+  color: rgb(163, 163, 163) ;
+  font-weight: 300;
+}
+
+#query .button{
+  padding: 17px 157px;
+}
+
+#footer{
+  margin-top: 3%;
+}
+
+#footer .col-4.diff .list-head{
+  margin-left: 90px;
+}
+
+#footer .col-4.diff ul{
+  margin-left: 90px;
+}
+
+#footer .contact{
+  text-align: center;
+  margin-top: 60px;
+}
+
+#footer .contact p{
+  font-size: 15px;
+}
+
+#footer .contact p span{
+  font-weight: 800;
+  color: #4a4a4a;
+}
+
+#footer p.rights{
+  font-size: 13px;
+  padding: 1% 0;
+}
+
+#footer  .logo{
+  width: 45%;
+  margin: 0 35%;
+}
+
+#footer .logo img{
+  width: 100%;
+}
+
+#footer .end{
+ padding: 5% 0;
+}
+
+#footer .end .sm-contact{
+  padding: 1% 0;
+}
+
+
+
