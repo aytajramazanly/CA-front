@@ -389,53 +389,7 @@ text-align: center;
   padding: 17px 157px;
 }
 
-#footer{
-  margin-top: 3%;
-}
 
-#footer .col-4.diff .list-head{
-  margin-left: 90px;
-}
-
-#footer .col-4.diff ul{
-  margin-left: 90px;
-}
-
-#footer .contact{
-  text-align: center;
-  margin-top: 60px;
-}
-
-#footer .contact p{
-  font-size: 15px;
-}
-
-#footer .contact p span{
-  font-weight: 800;
-  color: #4a4a4a;
-}
-
-#footer p.rights{
-  font-size: 13px;
-  padding: 1% 0;
-}
-
-#footer  .logo{
-  width: 45%;
-  margin: 0 35%;
-}
-
-#footer .logo img{
-  width: 100%;
-}
-
-#footer .end{
- padding: 5% 0;
-}
-
-#footer .end .sm-contact{
-  padding: 1% 0;
-}
 
 
 
